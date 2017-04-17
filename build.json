@@ -1,0 +1,10 @@
+{
+  "ios": {
+        "release" : {
+              "codeSignIdentity": "WTCA8WZDGG",
+              "provisioningProfile": "ZFW73VWK9R",
+              "developmentTeam": "FG35JLLMXX4A", 
+              "packageType": "app-store"
+        }
+    }
+}

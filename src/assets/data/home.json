@@ -1,0 +1,12 @@
+{
+    "locations":[
+        {
+            "image":"assets/img/picnic-island.jpg",
+            "title":"Beaches",
+            "subtitle": "Subtite",
+            "sortOrder": 1,
+            "display": true
+        }
+    ]   
+}
+

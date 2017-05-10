@@ -5,14 +5,14 @@
             "title":"Beaches",
             "subtitle": "Slideshow",
             "sortOrder": 1,
-            "display": true
+            "display": false
         },
         {
             "image":"assets/img/doggie.jpg",
             "title":"Dog Beach",
             "subtitle": "Slideshow",
             "sortOrder": 2,
-            "display": true
+            "display": false
         },
         {
             "image":"assets/img/playground.jpg",

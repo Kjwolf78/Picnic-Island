@@ -1,19 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-import * as data from '../assets/data/home.json';
-/*
-  Generated class for the LocationProvider provider.
+import * as home from '../assets/data/home.json';
+//import beaches.json here. Look at the line above. Instead of naming it "home", name it beaches.
 
-  See https://angular.io/docs/ts/latest/guide/dependency-injection.html
-  for more info on providers and Angular 2 DI.
-*/
 @Injectable()
 export class LocationProvider {
-locations=[];
+  
+  locations=[];
+  //add variable called beachesSlides here. It should look like the line above but not called locations.
+
   constructor(public http: Http) {
-    console.log(data.locations.length);
-    this.locations = data.locations;
+    this.locations = home.locations;
+    //define beachesSlides variable to beaches.json data here. Look at the line above to see how we set the locations variable to equal the data.locations
   }
 
 }

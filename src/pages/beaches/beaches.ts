@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+//import LocationProvider here. Look at home.ts for an example.
 
-/*
-  Generated class for the Beaches page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-beaches',
   templateUrl: 'beaches.html'
 })
 export class BeachesPage {
+  //add slides variable here like in home.ts but it won't be called locations. Call is slides.
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams /*add locationProvider here like we do in home.ts*/) {
+
+    //define slides variable here. Look to home.ts as reference but it won't be equal to locationProvider.locations
+  
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BeachesPage');

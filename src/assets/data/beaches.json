@@ -1,0 +1,29 @@
+{
+    "slides": [
+      {
+          "image":"assets/img/beaches/beach1.jpg",
+          "title":"View of Downtown St. Pete."
+      }, 
+      {
+          "image":"assets/img/beaches/beach2.jpg",
+          "title":"West side of peninsula facing pier."
+      },
+      {
+          "image":"assets/img/beaches/beach3.jpg",
+          "title":"Birdseye view of Picnic Area."
+      },
+      {
+          "image":"assets/img/beaches/beach4.jpg",
+          "title":"Scenic Sunset."
+      },
+      {
+          "image":"assets/img/beaches/beach5.png",
+          "title":"Flyover of Picnic Island Park."
+      },
+      {
+          "image":"assets/img/beaches/beach6.jpg",
+          "title":"Sunset at the Pier."
+      }
+
+    ]
+}

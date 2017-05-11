@@ -14,8 +14,8 @@ import { LocationProvider } from '../../providers/location-provider';
 export class BoatrampPage {
 
   constructor(public navCtrl: NavController,private locationProvider:LocationProvider) {
-    this.slides=locationProvider.BoatrampSlides;
-
+    //this.slides=locationProvider.BoatrampSlides;
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad BoatrampPage');
   }

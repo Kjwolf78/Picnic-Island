@@ -17,6 +17,12 @@
 <p>Slideshow of the Disc Golf Course.</p>
 <ion-slides pager>
 
+  <ion-card *ngFor="let location of locations" (click)="gotodiscgolf()">
+    <img src="{{location.image}}"/>
+    <div class="card-title">{{location.title}}</div>
+    <div class="card-subtitle">{{location.subtitle}}</div>
+  </ion-card>
+
   <ion-slide style="background-color: white">
     <img src="assets/img/discgolf/golf1.jpg"/>
     <h2></h2>

@@ -12,7 +12,7 @@ export class BeachesPage {
   //add slides variable here like in home.ts but it won't be called locations. Call is slides.
 
   constructor(public navCtrl: NavController,private locationProvider:LocationProvider) {
-    this.slides=.beachesSlides;
+    this.slides = locationProvider.beachesSlides;
   
 } /*add locationProvider here like we do in home.ts*/
 

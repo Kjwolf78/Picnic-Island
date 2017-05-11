@@ -1,0 +1,36 @@
+{
+    "slides": [
+      {
+          "image":"assets/img/DogPark/dog1.jpg",
+          "title":""
+      }, 
+      {
+          "image":"assets/img/DogPark/dog2.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/DogPark/dog3.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/DogPark/dog4.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/DogPark/dog5.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/DogPark/dog6.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/DogPark/dog7.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/DogPark/dog8.jpg",
+          "title":""
+      }
+    ]
+}

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
+import { LocationProvider } from '../../providers/location-provider';
 /*
   Generated class for the Boatramp page.
 
@@ -13,7 +13,8 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class BoatrampPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController,private locationProvider:LocationProvider) {
+    this.slides=locationProvider.BoatrampSlides;
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BoatrampPage');

@@ -1,0 +1,25 @@
+{
+    "slides": [
+      {
+          "image":"assets/img/boatpier/pier1.jpg",
+          "title":""
+      }, 
+      {
+          "image":"assets/img/boatpier/pier2.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/boatpier/pier3.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/boatpier/pier4.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/boatpier/pier5.jpeg",
+          "title":""
+      }
+      
+    ]
+}

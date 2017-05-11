@@ -1,0 +1,25 @@
+{
+    "slides": [
+      {
+          "image":"assets/img/discgolf/golf1.jpg",
+          "title":""
+      }, 
+      {
+          "image":"assets/img/discgolf/golf2.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/discgolf/golf3.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/discgolf/golf4.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/discgolf/golf5.jpg",
+          "title":""
+      }
+
+    ]
+}

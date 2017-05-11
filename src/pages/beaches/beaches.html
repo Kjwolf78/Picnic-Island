@@ -19,13 +19,14 @@
   <!--
     Create an <ion-slide></ion-slide> formatted the same as the ones below but use the *ngFor to display the data from beaches.json. 
     Look at home.html as a reference.
-
+   --> 
+   
   <ion-card *ngFor="let location of locations" (click)="gotoBeaches()">
     <img src="{{location.image}}">
     <div class="card-title">{{location.title}}</div>
     <div class="card-subtitle">{{location.subtitle}}</div>
   </ion-card>
-    <!--
+   <!--
   
   <ion-slide style="background-color: white">
     <img src="assets/img/beaches/beach1.jpg"/>

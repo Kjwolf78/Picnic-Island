@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { LocationProvider } from '../../providers/location-provider';
 
 /*
   Generated class for the Discgolf page.
@@ -12,9 +13,11 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'discgolf.html'
 })
 export class DiscgolfPage {
+  slides=[];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
-
+  constructor(public navCtrl: NavController,private locationProvider:LocationProvider) {
+    this.slides=locationProvider.discgolfSlides;
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad DiscgolfPage');
   }

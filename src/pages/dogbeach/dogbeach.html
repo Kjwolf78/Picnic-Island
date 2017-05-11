@@ -17,11 +17,10 @@
 <p>Slideshow of the Dog Park area.</p>
 <ion-slides pager>
 
-  <ion-card *ngFor="let location of locations" (click)="gotodogbeach()">
-    <img src="{{location.image}}"/>
-    <div class="card-title">{{location.title}}</div>
-    <div class="card-subtitle">{{location.subtitle}}</div>
-  </ion-card>
+  <ion-slide *ngFor="let slide of slides" style="background-color: white">
+    <img src="{{slide.image}}"/>
+    <h2>{{slide.title}}</h2>
+  </ion-slide>
 
   <ion-slide style="background-color: white">
     <img src="assets/img/DogPark/dog1.jpg"/>

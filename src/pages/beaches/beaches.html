@@ -16,46 +16,12 @@
 <ion-content padding>
 <p>The below slideshow its just a small glimpse into the beauty of Picnis Island Park. Enjoy!</p>
 <ion-slides pager>
-  <!--
-    Create an <ion-slide></ion-slide> formatted the same as the ones below but use the *ngFor to display the data from beaches.json. 
-    Look at home.html as a reference.
-   --> 
+
    
   <ion-slide *ngFor="let slide of slides"style="background-color: white">
     <img src="{{slide.image}}">
     <h2>{{slide.title}}</h2>
   </ion-slide>
-   <!--
-  
-  <ion-slide style="background-color: white">
-    <img src="assets/img/beaches/beach1.jpg"/>
-    <h2>View of Downtown St. Pete</h2>
-  </ion-slide>
-
-  <ion-slide style="background-color: white">
-    <img src="assets/img/beaches/beach2.jpg"/>
-    <h2>West side of peninsula facing pier</h2>
-  </ion-slide>
-
-  <ion-slide style="background-color: white">
-    <img src="assets/img/beaches/beach3.jpg"/>
-    <h2>Birdseye of Picnic area</h2>
-  </ion-slide>
-
-    <ion-slide style="background-color: white">
-    <img src="assets/img/beaches/beach4.jpg"/>
-    <h2>Scenic Sunset</h2>
-  </ion-slide>
-
-    <ion-slide style="background-color: white">
-    <img src="assets/img/beaches/beach5.png"/>
-    <h2>Flyover of Picnic Island Park</h2>
-  </ion-slide>
-
-    <ion-slide style="background-color: white">
-    <img src="assets/img/beaches/beach6.jpg"/>
-    <h2>Sunset at the Pier</h2>
-  </ion-slide>
-  -->
+   
 </ion-slides>
 </ion-content>

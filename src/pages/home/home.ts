@@ -20,7 +20,7 @@ constructor(public navCtrl: NavController,private locationProvider:LocationProvi
 
 }
 gotoBeaches() {
-  this.navCtrl.push(BeachesPage);
+  this.navCtrl.push("BeachesPage");
 }
 
 gotodogbeach() {

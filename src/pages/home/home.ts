@@ -25,13 +25,13 @@ case 1:
     this.navCtrl.push("Beaches");
     break;
 case 2:
-    this.navCtrl.push("DogBeach");
+    this.navCtrl.push("Dogbeach");
     break;
 case 3:
     this.navCtrl.push("Playground");
     break;
 case 4:
-    this.navCtrl.push("BoatRamp");
+    this.navCtrl.push("Boatramp");
     break;
 case 5:
     this.navCtrl.push("Discgolf");
@@ -67,3 +67,4 @@ gotomap(){
   this.navCtrl.push(MapPage)
 }
 
+}

@@ -46,7 +46,6 @@ default:
 }
 gotobeaches() {
   this.navCtrl.push(BeachesPage);
->>>>>>> cf2951210f0083a329795d41cb651e351fa35195
 }
 gotodogbeach() {
   this.navCtrl.push(DogbeachPage);

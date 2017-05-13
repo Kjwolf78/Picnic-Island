@@ -5,42 +5,48 @@
             "title":"Beaches",
             "subtitle": "Slideshow",
             "sortOrder": 1,
-            "display": false
+            "display": false,
+            "id": 1
         },
         {
             "image":"assets/img/doggie.jpg",
             "title":"Dog Beach",
             "subtitle": "Slideshow",
             "sortOrder": 2,
-            "display": false
+            "display": false,
+            "id": 2
         },
         {
             "image":"assets/img/playground.jpg",
             "title":"Playground",
             "subtitle":"Slideshow",
             "sortOrder": 3,
-            "display": true
+            "display": true,
+            "id": 3
         },
         {
             "image":"assets/img/boatdock.jpg",
             "title":"Boat Ramp and Dock",
             "subtitle":"Slideshow",
             "sortOrder": 4,
-            "display": true
+            "display": true,
+            "id": 4
         },
         {
             "image":"assets/img/imgres.jpg",
             "title":"Disc Golf",
             "subtitle":"Slideshow",
             "sortOrder": 5,
-            "display": true
+            "display": true,
+            "id": 5
         },
         {
             "image":"assets/img/map.png",
             "title":"Maps",
             "subtitle":"Slideshow",
             "sortOrder": 6,
-            "display": true 
+            "display": true,
+            "id": 6
         }
         
     ]   

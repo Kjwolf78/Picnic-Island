@@ -12,9 +12,10 @@ import { LocationProvider } from '../../providers/location-provider';
   templateUrl: 'boatramp.html'
 })
 export class BoatrampPage {
+  slides=[];
 
   constructor(public navCtrl: NavController,private locationProvider:LocationProvider) {
-    this.slides=locationProvider.BoatrampSlides;
+    this.slides=locationProvider.boatrampSlides;
   }
   ionViewDidLoad() {
     console.log('ionViewDidLoad BoatrampPage');

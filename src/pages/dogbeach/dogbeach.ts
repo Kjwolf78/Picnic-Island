@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { LocationProvider } from '../../providers/location-provider';
 
 /*
   Generated class for the Dogbeach page.
@@ -12,9 +13,11 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'dogbeach.html'
 })
 export class DogbeachPage {
+  slides=[];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
-
+ constructor(public navCtrl: NavController,private locationProvider:LocationProvider) {
+    this.slides=locationProvider.dogbeachSlides;
+ }
   ionViewDidLoad() {
     console.log('ionViewDidLoad DogbeachPage');
   }

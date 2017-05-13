@@ -19,10 +19,35 @@ constructor(public navCtrl: NavController,private locationProvider:LocationProvi
   this.locations=locationProvider.locations;
 
 }
-gotoBeaches() {
-  this.navCtrl.push("BeachesPage");
+gotoPages(id) {
+  switch (id){
+case 1: 
+    this.navCtrl.push("Beaches");
+    break;
+case 2:
+    this.navCtrl.push("Dogbeach");
+    break;
+case 3:
+    this.navCtrl.push("Playground");
+    break;
+case 4:
+    this.navCtrl.push("Boatramp");
+    break;
+case 5:
+    this.navCtrl.push("Discgolf");
+    break;
+case 6:
+    this.navCtrl.push("Map");
+    break;
+default:
+    this.navCtrl.push("Home");
+    break;
+  }
 }
-
+gotobeaches() {
+  this.navCtrl.push(BeachesPage);
+>>>>>>> cf2951210f0083a329795d41cb651e351fa35195
+}
 gotodogbeach() {
   this.navCtrl.push(DogbeachPage);
 }
@@ -42,6 +67,5 @@ gotodiscgolf() {
 gotomap(){
   this.navCtrl.push(MapPage)
 }
-
 
 }

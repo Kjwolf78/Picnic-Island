@@ -1,0 +1,21 @@
+{
+    "slides": [
+      {
+          "image":"assets/img/Playground/pg1.jpg",
+          "title":""
+      }, 
+      {
+          "image":"assets/img/Playground/pg2.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/Playground/pg3.jpg",
+          "title":""
+      },
+      {
+          "image":"assets/img/Playground/pg4.jpg",
+          "title":""
+      }
+
+    ]
+}

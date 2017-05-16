@@ -22,22 +22,22 @@ constructor(public navCtrl: NavController,private locationProvider:LocationProvi
 gotoPages(id) {
   switch (id){
 case 1: 
-    this.navCtrl.push("Beaches");
+    this.navCtrl.push(BeachesPage);
     break;
 case 2:
-    this.navCtrl.push("Dogbeach");
+    this.navCtrl.push(DogbeachPage);
     break;
 case 3:
-    this.navCtrl.push("Playground");
+    this.navCtrl.push(PlaygroundPage);
     break;
 case 4:
-    this.navCtrl.push("Boatramp");
+    this.navCtrl.push(BoatrampPage);
     break;
 case 5:
-    this.navCtrl.push("Discgolf");
+    this.navCtrl.push(DiscgolfPage);
     break;
 case 6:
-    this.navCtrl.push("Map");
+    this.navCtrl.push(MapPage)
     break;
 default:
     this.navCtrl.push("Home");

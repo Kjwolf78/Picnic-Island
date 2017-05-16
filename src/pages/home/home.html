@@ -19,7 +19,7 @@
 
 <ion-content class="card-background-page">
 
-  <ion-card *ngFor="let location of locations" (click)=gotoPages(location.id)>
+  <ion-card *ngFor="let location of locations" (click)="gotoPages(location.id)">
     <img src="{{location.image}}"/>
     <div class="card-title">{{location.title}}</div>
     <div class="card-subtitle">{{location.subtitle}}</div>

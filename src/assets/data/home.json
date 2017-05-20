@@ -4,8 +4,8 @@
             "image":"assets/img/picnic-island.jpg",
             "title":"Beaches",
             "subtitle": "Slideshow",
-            "sortOrder": 1,
-            "display": false,
+            "sortOrder": 4,
+            "display": true,
             "id": 1
         },
         {
@@ -13,7 +13,7 @@
             "title":"Dog Beach",
             "subtitle": "Slideshow",
             "sortOrder": 2,
-            "display": false,
+            "display": true,
             "id": 2
         },
         {

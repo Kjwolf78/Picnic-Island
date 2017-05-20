@@ -16,9 +16,9 @@ export class HomePage {
 locations=[];
 
 constructor(public navCtrl: NavController,private locationProvider:LocationProvider) {
-  this.locations=locationProvider.locations.sort(function compareNumbers(a, b) {
-    return a - b;
-  });
+  this.locations=locationProvider.locations.sort(function(a,b){
+return (a.sortOrder - b.sortOrder);
+});
 
 }
 gotoPages(id) {

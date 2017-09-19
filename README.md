@@ -1,0 +1,2 @@
+# Picnic-Island
+This was my very first app created with the assistance of my brother. The idea was to find a project I could easily turn into an app to showcase what I have learned and how I implement it. I used programs starting with Balsamiq Mockups to build the blueprints of how I wanted the design to appear. With the assistance of Ionic Frameworks I then customized the entire project and created a guide to all the main attractions the park has to offer.
